@@ -1,11 +1,11 @@
 [mod]
 id = "freelook"
-version = "0.3.1"
+version = "0.3.2"
 priority = 100
 
 # Hooks two of the game's own functions, so it builds only on this commit.
 [compatibility]
-horizon_revision = "a4911819616385e3e8296b8957e7f60e8a217949"
+horizon_revision = "fdc87aecdbd116bf1e08adcd062fcbaea8c2e2ca"
 
 [[module]]
 id = "runtime"
@@ -48,7 +48,7 @@ bindings = [
 id = "mouse"
 kind = "HEAD"
 cancellable = true
-target = "horizon_client::game::Game<'_>::apply_mouse_look"
+target = "horizon_client::game::pointer_capture::Game<'_>::apply_mouse_look"
 helper = "mouse.rs"
 bindings = [
   { name = "game", ty = "&mut crate::game::Game<'_>", value = "&mut *self" },
