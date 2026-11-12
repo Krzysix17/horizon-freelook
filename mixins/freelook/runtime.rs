@@ -7,7 +7,7 @@
 use std::cell::Cell;
 
 pub const ID: &str = "freelook";
-pub const VERSION: &str = "0.3.1";
+pub const VERSION: &str = "0.3.2";
 pub const DESCRIPTION: &str = "Hold a key for a third person view you can look around in while your character keeps facing the same way; the wheel changes the camera distance.";
 /// The key's name, and its default.
 pub const KEY: &str = "freelook";
