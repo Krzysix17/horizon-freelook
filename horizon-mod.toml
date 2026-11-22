@@ -1,6 +1,6 @@
 id = "freelook"
 name = "Freelook"
-version = "0.4.7"
+version = "0.4.9"
 description = "Hold a key for a third person view you can look around in while your character keeps facing the same way. Scroll to change the camera distance."
 authors = ["Krzysix17"]
 license = "MIT"

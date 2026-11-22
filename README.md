@@ -10,6 +10,6 @@ The key is changed in Options > Controls > Key Binds, under Freelook (X by defau
 
 It uses only the mod API (`render_frame_pre`, `client_tick_pre`, `camera_distance`, `camera_pose`, `mouse_scrolling` and one registered key). It touches no game internals, reads and writes no files, uses no network and starts no processes. While the key is held it puts the player's own view angles back every frame and tick, so the server sees the angles from before the key went down.
 
-The camera does not stop at walls: with a block behind you it can go inside it.
+The camera stops at walls, as vanilla's third person does.
 
 MIT licensed.
