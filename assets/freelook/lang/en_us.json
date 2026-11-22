@@ -1,0 +1,9 @@
+{
+  "key.freelook.freelook": "Freelook",
+  "freelook.setting.mode": "Mode",
+  "freelook.setting.mode.tooltip": "Hold: freelook is on while you hold the key. Toggle: press once to switch it on, again to switch it off.",
+  "freelook.mode.hold": "Hold",
+  "freelook.mode.toggle": "Toggle",
+  "freelook.setting.distance": "Distance",
+  "freelook.setting.distance.tooltip": "How far behind you the camera starts, in blocks (the wheel changes it while freelook is on)."
+}

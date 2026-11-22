@@ -1,0 +1,14 @@
+id = "freelook"
+name = "Freelook"
+version = "0.4.7"
+description = "Hold a key for a third person view you can look around in while your character keeps facing the same way. Scroll to change the camera distance."
+authors = ["Krzysix17"]
+license = "MIT"
+api = "0.2"
+side = "client"
+capabilities = ["registries"]
+
+[native]
+game = "26.3"
+horizon = "2b77287de099c9316278ba7ac4d83590fdb7ef30"
+mixins = "e59da9094f0c2fdda6c627fe9eff22dec6a906f0"
